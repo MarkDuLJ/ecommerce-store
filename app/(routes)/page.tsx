@@ -13,7 +13,6 @@ const Homepage = async () => {
         isFeatured:true,
     })
     const billboard= await getBillboard("fbd25a3d-3165-4352-af55-fd59dfeaa21f")
-    console.log(billboard);
     
     return (
         <Container>
