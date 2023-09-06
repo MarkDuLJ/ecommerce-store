@@ -14,7 +14,6 @@ interface Props{
 
 const ProductCard:React.FC<Props> =({data})=>{
     const router = useRouter()
-    console.log(router);
     
     const handleClick = ()=>{
         router.push(`/product/${data?.id}`)
