@@ -3,6 +3,7 @@ import getProducts from "@/actions/get-products"
 import Gallery from "@/components/gallery"
 import ProductList from "@/components/product-list"
 import Container from "@/components/ui/container"
+import Info from "@/components/info"
 
 interface Props{
     params:{
@@ -26,7 +27,7 @@ const ProductPage : React.FC<Props> = async ( {
                     <div className="lg:grid lg:grid-cols-2 lg:items-start lg:gap-x-8">
                         <Gallery images={product.images}/>
                         <div className="mt-10 px-4 sm:mt-16 lg:items-start lg:gap-x-8">
-                            info
+                            <Info data={product}/>
                         </div>
                     </div>
                     <hr  className="my-10"/>
