@@ -1,7 +1,6 @@
 "use client"
 
 import { Dialog, Transition } from "@headlessui/react";
-import { relative } from "path";
 import { Fragment } from "react";
 import IconButton from "./icon-button";
 import { X } from "lucide-react";

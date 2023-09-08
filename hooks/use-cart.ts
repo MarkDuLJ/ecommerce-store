@@ -1,5 +1,4 @@
 import { Product } from "@/type";
-import { data } from "autoprefixer";
 import { toast } from "react-hot-toast";
 
 
