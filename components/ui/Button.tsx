@@ -12,6 +12,7 @@ const Button =forwardRef<HTMLButtonElement, ButtonProps>(({
 
     return (
         <button 
+        disabled={disabled}
         ref={ref}
         {...props}
         className={cn(`w-auto rounded-full bg-black border-transparent px-3 py-3 
